@@ -2,7 +2,7 @@
 
 Todos os códigos das matérias que usam java na FATEC-RL
 
-<p align="center" style="width: 200px;">
+<p align="center" style="width: 150px;">
 
 <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/3/30/Java_programming_language_logo.svg/234px-Java_programming_language_logo.svg.png" alt="Java">
 </p>
