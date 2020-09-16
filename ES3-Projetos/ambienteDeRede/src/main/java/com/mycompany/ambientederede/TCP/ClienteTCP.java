@@ -1,4 +1,4 @@
-package com.mycompany.ambientederede;
+package com.mycompany.ambientederede.TCP;
 
 import java.net.*;
 import java.io.*;
