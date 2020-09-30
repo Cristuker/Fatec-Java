@@ -1,18 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mycompany.aula05;
 
-/**
- *
- * @author csilva
- */
+import java.util.ArrayList;
+
 public class Produto {
     private String descricao;
     private double preco;
     private Categoria categoria;
+    private ArrayList<Cliente> clientes;
 
     public Produto(String descricao, double preco, Categoria categoria) {
         this.descricao = descricao;

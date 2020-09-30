@@ -10,6 +10,10 @@ public class Cliente {
         this.nome = nome;
         this.carrinho = new ArrayList<Produto>();
     }
+
+    public String getNome() {
+        return nome;
+    }
     
     public void adicionar(Produto produto) {
         if(produto != null){

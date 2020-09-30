@@ -57,6 +57,7 @@ public class InformaDados extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         nameField.setText("Digite o seu nome");
 
@@ -81,6 +82,7 @@ public class InformaDados extends javax.swing.JFrame {
         jLabel3.setText("Cartão:");
 
         jButton1.setText("Cadastrar");
+        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
