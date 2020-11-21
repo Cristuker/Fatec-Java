@@ -14,20 +14,20 @@ public class Salario {
         this.horas_trabalhadas = horas_trabalhadas;
     }
 
-    public void set_dias_trabalhados(int dias_trabalhados) {
-        this.dias_trabalhados = horas_trabalhadas;
+    public void set_dias_trabalhados(double dias_trabalhados) {
+        this.dias_trabalhados = dias_trabalhados;
     }
 
     public double get_salario() {
-        return salario;
+        return this.salario;
     }
 
     public double get_horas_trabalhadas() {
-        return horas_trabalhadas;
+        return this.horas_trabalhadas;
     }
 
     public double get_dias_trabalhados() {
-        return dias_trabalhados;
+        return this.dias_trabalhados;
     }
 
 }
