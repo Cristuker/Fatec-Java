@@ -4,7 +4,7 @@ public class Funcionario {
     	private String nome_funcionario;
 	private String matricula;
 	
-	public void set_nome_funcionario(String nome_funcionamento) {
+	public void set_nome_funcionario(String nome_funcionario) {
 		this.nome_funcionario = nome_funcionario;
 	}
 	
