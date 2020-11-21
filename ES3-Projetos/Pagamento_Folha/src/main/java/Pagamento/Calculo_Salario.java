@@ -4,7 +4,6 @@ public class Calculo_Salario {
 
     double fator_dias;
     double fator_horas;
-    Salario s = new Salario();
 
     public double Calculo_Salario(Salario r) {
         fator_dias = r.get_dias_trabalhados() / 30;
