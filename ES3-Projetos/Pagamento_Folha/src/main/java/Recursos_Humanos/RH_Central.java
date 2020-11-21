@@ -8,6 +8,7 @@ import Identificacao.Funcionario;
 public class RH_Central {
 
     public static void main(String args[]) {
+        
         Salario salario = new Salario();
         Calculo_Salario calSal = new Calculo_Salario();
         Empresa empresa = new Empresa();
