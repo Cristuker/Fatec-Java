@@ -8,7 +8,7 @@ public class Empresa {
 		this.nome_Empresa = nome_Empresa;
 	}
 	
-	public void setSecao(String sesecaoo) {
+	public void setSecao(String secao) {
 		this.secao = secao;
 	}
 	

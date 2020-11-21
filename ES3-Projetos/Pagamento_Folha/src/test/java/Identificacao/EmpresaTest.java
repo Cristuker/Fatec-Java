@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Identificacao;
 
 import org.junit.jupiter.api.AfterEach;
@@ -12,13 +7,10 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- *
- * @author cristian
- */
 public class EmpresaTest {
     
     public EmpresaTest() {
+        System.out.println("Suite de test da classe Empresa");
     }
 
     @org.junit.jupiter.api.BeforeAll
@@ -38,58 +30,51 @@ public class EmpresaTest {
     }
     
 
-    /**
-     * Test of set_nome_Empresa method, of class Empresa.
-     */
     @org.junit.jupiter.api.Test
     public void testSet_nome_Empresa() {
-        System.out.println("set_nome_Empresa");
-        String nome_Empresa = "";
+        
+        System.out.println("Test set_nome_Empresa");
+        
+        String nome_Empresa = "fatec";
         Empresa instance = new Empresa();
+        
         instance.set_nome_Empresa(nome_Empresa);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
+        assertEquals(nome_Empresa, instance.get_nome_Empresa());
     }
 
-    /**
-     * Test of setSecao method, of class Empresa.
-     */
+
     @org.junit.jupiter.api.Test
     public void testSetSecao() {
-        System.out.println("setSecao");
-        String sesecaoo = "";
+        System.out.println("Test setSecao");
+        String secao = "01";
         Empresa instance = new Empresa();
-        instance.setSecao(sesecaoo);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        instance.setSecao(secao);
+        assertEquals(secao, instance.getSecao());
     }
 
-    /**
-     * Test of get_nome_Empresa method, of class Empresa.
-     */
+    
     @org.junit.jupiter.api.Test
     public void testGet_nome_Empresa() {
-        System.out.println("get_nome_Empresa");
+        System.out.println("Test get_nome_Empresa");
+        
         Empresa instance = new Empresa();
-        String expResult = "";
+        instance.set_nome_Empresa("Fatec");
+        String expResult = "Fatec";
         String result = instance.get_nome_Empresa();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of getSecao method, of class Empresa.
-     */
     @org.junit.jupiter.api.Test
     public void testGetSecao() {
         System.out.println("getSecao");
+        
         Empresa instance = new Empresa();
-        String expResult = "";
+        
+        String expResult = "01";
+        instance.setSecao(expResult);
         String result = instance.getSecao();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }
